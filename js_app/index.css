@@ -1,14 +1,17 @@
 body {
-    background-color: ghostwhite;
-}
-
-h1 {
-    color: #344953;
-    transition: color .5s ease-in-out;
+    background-color: #ecf0f1;
+    color: #34495e;
 }
 
 .clicked {
     color: #7f8c8d;
+}
+.form,
+.greetings {
+    display: none;
+}
+.showing{
+    display: block;
 }
 
 .btn{

@@ -1,9 +1,11 @@
 
-/*function sayHello(name, age) {
+function sayHello(name, age) {
     console.log(`hello ${name} you are ${age} years old`);
 }
 let haha = 1;
-sayHello(`kim ${haha}`, 14);
+sayHello(`kim ${`haha`}`, 14);
+console.log(`0${`asds`}`)
+/*
 
 const arr = [`sdad`, 23];
 const calculate = {
