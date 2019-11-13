@@ -4,7 +4,6 @@ body {
 }
 .main{
     position:absolute;
-    width: 400px;
     top:50%;
     left:50%;
     text-align: center;
@@ -12,11 +11,20 @@ body {
 }
 ul {
     text-align: left;
+    font-size : 1.5em;
 }
 .clicked {
     color: #7f8c8d;
 }
-
+h1 {
+    font-size : 8em;
+    margin : 1px;
+}
+h4{
+    font-size : 2em;
+    margin-top : 1px;
+    margin-bottom : 10px;
+}
 
 .form, .greetings {
     display: none;
@@ -51,5 +59,6 @@ ul {
 }
 .js-weather {
     float : right;
+    font-size : 1.5em;
 }
 
